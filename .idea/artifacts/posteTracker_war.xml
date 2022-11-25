@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="posteTracker:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>posteTracker</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="posteTracker-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="posteTracker:war exploded" />
+    </root>
+  </artifact>
+</component>
